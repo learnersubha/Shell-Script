@@ -8,7 +8,7 @@ echo "************************************** INSTALL $1 ************************
 
 sudo apt-get update
 
-sudo apt-get install $1 -y
+sudo apt-get install $1 
 
 
 sudo systemctl start $1
