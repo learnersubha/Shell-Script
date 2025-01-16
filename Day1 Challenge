@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#Shebang use for execute in terminal which instruction we are give to shell.
+
+
+# echo -> This command is user for print something in terminal.
+
+echo "Microft"
+echo "Devops"
+
+# Variables are use for store data or values
+
+name="Microft"
+course="Devops"
+
+# Now we print a line to using the above two variable.
+
+echo "Hi $name welcome to $course world"
+
+# Bash built-in command
+
+echo "Where I am currently available - $PWD"
+echo "My Hostname - $HOSTNAME"
+echo "My bash version - $BASH_VERSION"
+echo "My current bash path - $BASH"
+echo "My home directory - $HOME"
+
+# For Wildcards
+
+echo "Files which extention are.txt are available in current directory:"
+ls *.txt
+                                                            
